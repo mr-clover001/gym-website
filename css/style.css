@@ -1,0 +1,117 @@
+ /* css reset  */
+
+ body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(../images/abs-1850926.jpg);
+    background-position: initial;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.header{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content:space-between;
+    margin: 20px;
+
+}
+.left{
+    margin: 0px 28px;
+    /* border: 2px solid red; */
+}
+
+.left img{
+    width: 125px;
+    filter: invert(93%);
+}
+.left div{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mid{   
+}
+
+.navbar {
+    font-family:cursive;
+    
+    /* border: 2px solid rgb(0, 255, 55); */
+    display: flex;
+    padding: 8px 2px;
+}
+.navbar div a{
+    /* border: 2px solid rgb(0, 255, 242); */
+    padding: 0px 21px;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+.navbar div a:hover, .navbar div a.active{
+    text-decoration: underline;
+    color: rgb(134, 134, 134);
+}
+
+.right{
+     padding: 0px 16px;
+     
+    /* border: 2px solid rgb(21, 255, 0); */
+}
+
+.right button{
+    font-family:cursive;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-left: 8px;
+    background-color: rgba(27, 25, 25, 0.507);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.right button:hover{
+    background-color: rgb(41, 39, 39);
+}
+
+.container{
+    margin: 110px;
+    border:2px solid rgb(133, 131, 133);
+    border-radius: 16px;
+    width: 500px;
+    height: 380px;
+}
+.details-client{
+    font-family: cursive;
+    /* border:2px solid violet; */
+    width: 350px;
+    margin: 70px 80px;
+}
+
+.forms input{ width: 98%;
+    height: 30px;
+    border-radius: 6px;
+    background-color: transparent;
+    border: 2px solid rgb(150, 148, 148);
+    margin-top: 4px;
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+ .submit-button button{
+     margin-top: 6px;
+    border-radius: 6px;
+    width: 100%;
+    height: 30px;
+    font-size: 19px;
+    text-decoration: none;
+    
+
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+}
